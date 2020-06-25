@@ -1,0 +1,40 @@
+header, footer {
+  background-color: #98b628;
+}
+.navbar-brand {
+ font-size: 18px;
+ font-weight: 600;
+}
+.nav-link, .dropdown-item {
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+nav li {
+ padding: 0 18px;
+}
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+</style>
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 700;
+}
+ p {
+   font-family: 'Merriweather', serif;
+   font-weight: 300;
+ }
+
+ a.btn, button {
+   font-family: 'Nanum Gothic', sans-serif;
+   font-weight: 300;
+   letter-spacing: 2px
+ }
